@@ -1,0 +1,100 @@
+.contact_main{
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+}
+.contact_box{
+    background-color: #fff;
+    display: flex;
+    height: 450px;
+    margin-top: 25px;
+}
+.contact_left{
+    background: #6b9d9c;
+    flex-basis: 60%;
+    padding: 15px 60px;
+}
+.contact_right{
+    flex-basis: 60%;
+    padding: 40px ;
+    background: #3d7588;
+    color: #fff;
+
+}
+.contact_main h1 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contact_main p{
+    display: flex;
+    justify-content: center; 
+}
+.input_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input_row .input_group{
+    flex-basis: 45%;
+}
+.input_group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+.massege textarea{
+    width: 100%;
+    border: 1px solid #00adbf;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+}
+.input_group label{
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-weight: 600;
+}
+.massege label{
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-weight: 600;
+}
+.massege button{
+    background: #00adbf;
+    color: beige;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px 0px rgba(67, 67, 84, 0.3);
+    
+}
+.contact_left h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.contact_right h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+tr td:first-child {
+    padding-right:50px;
+}
+tr td{
+    padding-top: 20px;
+    font-weight: 600;
+}

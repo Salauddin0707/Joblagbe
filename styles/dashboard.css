@@ -1,0 +1,132 @@
+.container-2{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.haeading h1{
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.job-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.joc {
+    height: auto;
+    width: 20%;
+    margin: 10px; 
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
+}
+.joc h2 {
+  color: #444;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.joc p{
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;   
+}
+.job-d-h {
+  padding: 10px 0;
+  text-align: center;
+}
+.job-r {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.j-r-l {
+  width: 35%;
+  background-color: #6b9d9c ;
+  padding: 20px;
+}
+.j-r-r {
+  width: 15%;
+  background-color: aqua;
+  padding: 20px;
+}
+.j-r-r h2{
+  display: flex;
+  justify-content: center;
+}
+.j-des h3,h4,p{
+  color: white;
+}
+
+.job_logout a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.know_btn{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #333;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.know_btn:hover{
+    transform: scale(1.03);
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+}
+.joc:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in;
+}
+
+.img-logo{
+  width: 35%;
+  height: 30%;
+}
+.img-logo_details_page{
+  width: 55%;
+  height: 55%;
+  margin: 15px 45px 15px 45px;
+}
+
+.login_btn{
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  background: #00adbf;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 47%;
+}
+.logout_btn{
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  background: #b44646;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 48%;
+}
+

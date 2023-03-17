@@ -1,0 +1,44 @@
+.apply_main {
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.apply {
+    height: 310px;
+    width: 350px;
+    background-color: #2cc2d2e0;
+    border-radius: 15px;
+}
+.apply h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+.apply label {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+.apply form{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.apply_button {
+    background:#2672bdc2;
+    color: beige;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0px rgba(67, 67, 84, 0.3);
+    margin-left: 25%;
+    font-weight: 700;
+    font-size: 17px;
+
+}
